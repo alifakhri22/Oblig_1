@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bestilling av kinobilletter</title>
+    <script src="script.js"></script>
+</head>
+<body>
+<h1>Bestilling av kinobilletter</h1>
+
+<form id="ticketForm">
+    <label for="film">Velg film:</label>
+    <select id="film" required>
+        <option value="Interstellar">Interstellar</option>
+        <option value="Inception">Inception</option>
+        <option value="Tenet">TeneT</option>
+        <option value="Oppenheimer">Oppenheimer</option>
+    </select><br><br>
+
+    <label for="quantity">Antall:</label>
+    <input type="number" id="quantity" min="1" style="width: 30px;" required><br><br>
+
+    <table>
+        <tr>
+            <td><label for="firstName">Fornavn:</label></td>
+            <td><input type="text" id="firstName" required></td>
+        </tr>
+        <tr>
+            <td><label for="lastName">Etternavn:</label></td>
+            <td><input type="text" id="lastName" required></td>
+        </tr>
+        <tr>
+            <td><label for="phone">Telefon:</label></td>
+            <td><input type="tel" id="phone" required pattern="[0-9]{8}"></td>
+        </tr>
+        <tr>
+            <td><label for="email">E-post:</label></td>
+            <td><input type="email" id="email" required></td>
+        </tr>
+    </table>
+
+    <button type="submit">Kjøp billett</button>
+</form>
+
+<h2>Alle billetter</h2>
+<button id="deleteAll">Slett alle billettene</button>
+<ul id="ticketList"></ul>
+
+
+</body>
+</html>

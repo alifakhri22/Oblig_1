@@ -1,16 +1,21 @@
-# Kjøp av kinobilletter
+# Oblig 1
 
-Dette prosjektet inneholder en enkel JavaScript-applikasjon for å registrere kjøp av kinobilletter.
+- OsloMet Brukernavn: alfak7681
+- GitHub Brukernavn: alifakhri22
+- GitHub repo URL: https://github.com/alifakhri22/Oblig_1
+- Fullt navn: Ali Fakhri
 
-## Bruk
+### Kort beskrivelse av applikasjon
 
-1. Åpne `index.html` i en nettleser.
-2. Fyll ut skjemaet med nødvendig informasjon (navn, e-post, telefon) og trykk på "Kjøp billett" for å legge til en billett.
-3. For å slette alle billetter, klikk på "Slett alle billettene".
-4. Se alle billettene under "Alle billetter".
+Dette prosjektet inneholder en enkel JavaScript og html kode for å registrere kjøp av kinobilletter.
+# Bestilling av kinobilletter
 
-## Input-validering
+Brukeren kan velge en film fra et dropdown meny, skrive inn antall billetter de vil kjøpe, legge inn navn, telefonnummer og e-postadresse, og deretter legge til billetten ved å trykke på "Kjøp billett" -knappen. Alle billetter som er "kjøpt" vises på skjermen, og brukeren kan slette alle billettene ved å trykke på "Slett alle billettene" -knappen.
 
-- Navn: Feltet er påkrevd.
-- E-post: Feltet må inneholde en gyldig e-postadresse.
-- Telefon: Feltet må inneholde et gyldig telefonnummer på 8 siffer.
+## Funksjonaliteter
+
+- Velg film fra et dropdown meny
+- Velge antall billetter
+- Legg inn fornavn, etternavn, telefonnummer og e-postadresse
+- "Kvitterings" funksjon
+

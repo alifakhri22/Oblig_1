@@ -8,11 +8,11 @@
 ### Kort beskrivelse av applikasjon
 
 Dette prosjektet inneholder en enkel JavaScript og html kode for å registrere kjøp av kinobilletter.
-# Bestilling av kinobilletter
+### Bestilling av kinobilletter
 
 Brukeren kan velge en film fra et dropdown meny, skrive inn antall billetter de vil kjøpe, legge inn navn, telefonnummer og e-postadresse, og deretter legge til billetten ved å trykke på "Kjøp billett" -knappen. Alle billetter som er "kjøpt" vises på skjermen, og brukeren kan slette alle billettene ved å trykke på "Slett alle billettene" -knappen.
 
-## Funksjonaliteter
+### Funksjonaliteter
 
 - Velg film fra et dropdown meny
 - Velge antall billetter
